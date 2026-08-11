@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clemente 2090 | Deputado Federal — Uruguaiana e Fronteira Oeste</title>
+<meta name="description" content="José Clemente da Silva Corrêa, candidato a Deputado Federal. Policial Militar reformado, 4 vezes vereador de Uruguaiana. Trabalho, coragem e compromisso com o Rio Grande.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<meta property="og:title" content="Clemente 2090 | Deputado Federal">
+<meta property="og:description" content="Trabalho, coragem e compromisso com o Rio Grande.">
+<meta property="og:image" content="assets/capa.webp">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/tailwind.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { -webkit-font-smoothing: antialiased; }
+  .h-title { font-family: 'Barlow Condensed', 'Arial Narrow', Impact, sans-serif; font-style: italic; text-transform: uppercase; font-weight: 700; line-height: .92; letter-spacing: -.01em; }
+  .flag-bar { background: linear-gradient(90deg, #0A6B33 0 33%, #F5B800 33% 66%, #1B2E7A 66% 100%); }
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.in { opacity: 1; transform: none; }
+  .card-hover { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+  .card-hover:hover { transform: translateY(-6px); box-shadow: 0 18px 40px -18px rgba(0,0,20,.35); }
+  .frame::before { content:''; position:absolute; inset:auto auto -18px -18px; width:72%; height:72%;
+    border: 6px solid #F5B800; border-radius: 1rem; z-index:0; }
+  /* suaviza o corte da foto na base do hero */
+  .hero-photo {
+    -webkit-mask-image: linear-gradient(to bottom, #000 88%, transparent 100%);
+            mask-image: linear-gradient(to bottom, #000 88%, transparent 100%);
+  }
+  .contact-photo {
+    -webkit-mask-image: linear-gradient(to bottom, #000 92%, transparent 100%);
+            mask-image: linear-gradient(to bottom, #000 92%, transparent 100%);
+  }
+  ::selection { background: #F5B800; color: #000014; }
+</style>
+</head>
+<body class="font-body bg-white text-ink antialiased">
+
+<!-- ============ NAVBAR ============ -->
+<header id="nav" class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-ink/95 backdrop-blur border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="flex items-center justify-between h-16 lg:h-20">
+      <a href="#home" class="flex items-center shrink-0">
+        <img src="assets/logo.webp" alt="Clemente 2090 — Deputado Federal" class="h-11 lg:h-14 w-auto">
+      </a>
+      <nav class="hidden lg:flex items-center gap-8">
+        <a href="#home"       class="text-sm font-semibold text-white/80 hover:text-gold transition">Home</a>
+        <a href="#sobre"      class="text-sm font-semibold text-white/80 hover:text-gold transition">Sobre Mim</a>
+        <a href="#trajetoria" class="text-sm font-semibold text-white/80 hover:text-gold transition">Trajetória</a>
+        <a href="#propostas"  class="text-sm font-semibold text-white/80 hover:text-gold transition">Plataforma</a>
+        <a href="#contato"    class="ml-2 inline-flex items-center gap-2 rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Vamos conversar
+        </a>
+      </nav>
+      <button id="burger" class="lg:hidden p-2 -mr-2 text-white" aria-label="Abrir menu">
+        <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="lg:hidden hidden border-t border-white/10 bg-ink">
+    <nav class="px-5 py-4 flex flex-col gap-1">
+      <a href="#home"       class="py-3 text-white/90 font-semibold border-b border-white/5">Home</a>
+      <a href="#sobre"      class="py-3 text-white/90 font-semibold border-b border-white/5">Sobre Mim</a>
+      <a href="#trajetoria" class="py-3 text-white/90 font-semibold border-b border-white/5">Trajetória</a>
+      <a href="#propostas"  class="py-3 text-white/90 font-semibold border-b border-white/5">Plataforma</a>
+      <a href="#contato"    class="mt-3 text-center rounded-full bg-brand2 px-5 py-3 font-bold text-white">Vamos conversar</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section id="home" class="relative overflow-hidden bg-ink pt-16 lg:pt-20">
+  <!-- fundo -->
+  <div class="absolute inset-0">
+    <div class="absolute inset-0 bg-[radial-gradient(120%_100%_at_75%_40%,#151530_0%,#000014_65%)]"></div>
+    <svg class="hidden lg:block absolute -right-20 top-0 h-full w-auto opacity-[.13]" viewBox="0 0 600 800" fill="none" aria-hidden="true">
+      <path d="M-60 780C120 640 300 700 420 520 540 340 460 120 620 20" stroke="#00A651" stroke-width="58" stroke-linecap="round"/>
+      <path d="M-60 850C120 710 300 770 420 590 540 410 460 190 620 90" stroke="#F5B800" stroke-width="34" stroke-linecap="round"/>
+    </svg>
+    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] h-[520px] rounded-full border-[36px] border-white/[.03]"></div>
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-8 items-end lg:min-h-[640px]">
+      <!-- texto -->
+      <div class="lg:col-span-7 pt-12 lg:pt-24 pb-8 lg:pb-28">
+        <div class="inline-flex items-center gap-2.5 mb-5">
+          <span class="flag-bar h-3 w-12 rounded-sm"></span>
+          <span class="text-xs lg:text-sm font-bold tracking-[.22em] text-white/85">DEPUTADO FEDERAL</span>
+        </div>
+
+        <h1 class="h-title text-white text-5xl sm:text-7xl lg:text-[5.5rem]">
+          Clemente
+        </h1>
+        <div class="h-title mt-1 text-6xl sm:text-8xl lg:text-[7rem] leading-none">
+          <span class="text-white">20</span><span class="text-brand2">90</span>
+        </div>
+        <div class="mt-3 h-title text-lg sm:text-2xl text-white/95">
+          Gente da <span class="text-gold">gente!</span>
+        </div>
+
+        <p class="mt-7 max-w-xl text-base lg:text-lg text-white/70 leading-relaxed">
+          <strong class="text-white font-semibold">Trabalho, coragem e compromisso com o Rio Grande.</strong>
+          Uma voz forte para Uruguaiana e toda a Fronteira Oeste no Congresso Nacional.
+        </p>
+
+        <div class="mt-9 flex flex-wrap items-center gap-3">
+          <a href="#propostas" class="inline-flex items-center gap-2 rounded-full bg-gold px-7 py-3.5 font-bold text-ink hover:brightness-95 transition">
+            Conheça a plataforma
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+          </a>
+          <a href="#sobre" class="inline-flex items-center gap-2 rounded-full border border-white/25 px-7 py-3.5 font-semibold text-white hover:bg-white/10 transition">
+            Conheça a trajetória
+          </a>
+        </div>
+
+        <p class="mt-8 text-[11px] text-white/40 tracking-wide">
+          <!-- TROCAR: informar o CNPJ da candidatura (exigência da Justiça Eleitoral) -->
+          CNPJ CAND. 00.000.000/0001-00
+        </p>
+      </div>
+
+      <!-- retrato -->
+      <div class="lg:col-span-5 relative flex justify-center lg:justify-end">
+        <img src="assets/clemente-recorte.webp"
+             alt="José Clemente da Silva Corrêa, candidato a Deputado Federal"
+             class="hero-photo relative z-10 w-[280px] sm:w-[360px] lg:w-full max-w-[440px] h-auto drop-shadow-[0_30px_60px_rgba(0,0,0,.6)]">
+      </div>
+    </div>
+  </div>
+  <div class="flag-bar h-1.5 w-full relative"></div>
+</section>
+
+<!-- ============ CREDENCIAIS ============ -->
+<section class="bg-ink2 border-b border-white/5">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 py-10 lg:py-12">
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-6">
+      <div class="reveal text-center lg:text-left">
+        <div class="h-title text-4xl lg:text-5xl text-gold">4x</div>
+        <p class="mt-1.5 text-sm text-white/65 leading-snug">Vereador de Uruguaiana<br>eleito consecutivamente</p>
+      </div>
+      <div class="reveal text-center lg:text-left">
+        <div class="h-title text-4xl lg:text-5xl text-brand2">2x</div>
+        <p class="mt-1.5 text-sm text-white/65 leading-snug">Secretário Municipal de<br>Segurança e Trânsito</p>
+      </div>
+      <div class="reveal text-center lg:text-left">
+        <div class="h-title text-3xl lg:text-4xl text-white">ABAMF</div>
+        <p class="mt-1.5 text-sm text-white/65 leading-snug">Presidente Estadual da<br>Associação da Brigada Militar</p>
+      </div>
+      <div class="reveal text-center lg:text-left">
+        <div class="h-title text-3xl lg:text-4xl text-white">PM</div>
+        <p class="mt-1.5 text-sm text-white/65 leading-snug">Policial Militar reformado,<br>a vida toda no serviço público</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section id="sobre" class="relative bg-white py-20 lg:py-28 overflow-hidden">
+  <div class="absolute -left-40 top-20 w-[420px] h-[420px] rounded-full bg-brand/[.04]"></div>
+  <div class="relative max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div class="reveal order-2 lg:order-1">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="h-[3px] w-10 bg-gold"></span>
+          <span class="text-xs font-bold tracking-[.2em] text-brand">SOBRE MIM</span>
+        </div>
+        <h2 class="h-title text-4xl lg:text-5xl text-ink">Uma vida no<br>serviço à comunidade</h2>
+
+        <div class="mt-7 space-y-5 text-[15px] lg:text-base text-ink/70 leading-relaxed">
+          <p>
+            Sou <strong class="text-ink font-semibold">José Clemente da Silva Corrêa</strong>,
+            <strong class="text-ink font-semibold">Policial Militar reformado</strong> e construí toda a minha
+            trajetória pautada pelo compromisso com a segurança pública, a defesa dos servidores
+            e o serviço à comunidade.
+          </p>
+          <p>
+            Sou <strong class="text-ink font-semibold">graduado em Gestão Pública</strong> e
+            <strong class="text-ink font-semibold">pós-graduado em Gestão em Segurança Pública</strong> —
+            formação que uni à experiência de rua para transformar vivência em política pública.
+          </p>
+          <p>
+            Na representação da categoria, fui <strong class="text-ink font-semibold">Presidente Regional
+            da ABAMF em Uruguaiana</strong> e, depois, <strong class="text-ink font-semibold">Presidente
+            Estadual da ABAMF</strong>, atuando na defesa dos direitos e da valorização dos policiais
+            e bombeiros militares do Rio Grande do Sul.
+          </p>
+        </div>
+
+        <dl class="mt-9 grid sm:grid-cols-2 gap-4">
+          <div class="rounded-xl border border-ink/10 bg-slate-50 p-4">
+            <dt class="text-xs font-bold tracking-widest text-brand">FORMAÇÃO</dt>
+            <dd class="mt-1.5 text-sm text-ink/75 leading-snug">Gestão Pública · Pós-graduação em Gestão em Segurança Pública</dd>
+          </div>
+          <div class="rounded-xl border border-ink/10 bg-slate-50 p-4">
+            <dt class="text-xs font-bold tracking-widest text-brand">BASE</dt>
+            <dd class="mt-1.5 text-sm text-ink/75 leading-snug">Uruguaiana e os municípios da Fronteira Oeste do RS</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="reveal order-1 lg:order-2 relative frame">
+        <div class="relative z-10 rounded-2xl overflow-hidden bg-slate-100 shadow-2xl">
+          <img src="assets/clemente-quadrada.webp" alt="Clemente" class="w-full h-auto" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRAJETORIA ============ -->
+<section id="trajetoria" class="relative bg-ink py-20 lg:py-28 overflow-hidden">
+  <div class="absolute inset-0 bg-[radial-gradient(100%_80%_at_20%_0%,#151530_0%,#000014_60%)]"></div>
+  <div class="relative max-w-7xl mx-auto px-5 lg:px-8 grid lg:grid-cols-12 lg:gap-14">
+
+    <div class="lg:col-span-5">
+      <div class="lg:sticky lg:top-32">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="h-[3px] w-10 bg-gold"></span>
+          <span class="text-xs font-bold tracking-[.2em] text-gold">VIDA PÚBLICA</span>
+        </div>
+        <h2 class="h-title text-4xl lg:text-5xl text-white">Linha do tempo</h2>
+        <p class="mt-4 text-white/60 leading-relaxed">
+          Uma trajetória marcada pela confiança da população e pelo compromisso com Uruguaiana.
+        </p>
+        <div class="mt-8 rounded-2xl overflow-hidden border border-white/10">
+          <img src="assets/capa-sm.webp" alt="Clemente 2090 — Trabalho, coragem e compromisso com o Rio Grande" class="w-full h-auto" loading="lazy">
+        </div>
+        <div class="mt-8 grid grid-cols-2 gap-4">
+          <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+            <div class="h-title text-3xl text-gold">16</div>
+            <p class="mt-1 text-xs text-white/60 leading-snug">anos de mandatos<br>na Câmara Municipal</p>
+          </div>
+          <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+            <div class="h-title text-3xl text-brand2">5</div>
+            <p class="mt-1 text-xs text-white/60 leading-snug">anos à frente da<br>Segurança e Trânsito</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ol class="lg:col-span-7 mt-14 lg:mt-2 relative border-l-2 border-white/10 ml-3 lg:ml-0 space-y-10 lg:space-y-12">
+      <li class="reveal relative pl-8 lg:pl-12">
+        <span class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-brand2 ring-4 ring-ink"></span>
+        <div class="h-title text-2xl lg:text-3xl text-gold">2008</div>
+        <h3 class="mt-1 text-lg font-bold text-white">Eleito vereador de Uruguaiana</h3>
+        <p class="mt-2 text-white/60 leading-relaxed max-w-2xl">
+          Primeira eleição para a Câmara Municipal, na legislatura 2009–2012.
+        </p>
+      </li>
+      <li class="reveal relative pl-8 lg:pl-12">
+        <span class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-brand2 ring-4 ring-ink"></span>
+        <div class="h-title text-2xl lg:text-3xl text-gold">2015 – 2016</div>
+        <h3 class="mt-1 text-lg font-bold text-white">Secretário Municipal de Segurança e Trânsito</h3>
+        <p class="mt-2 text-white/60 leading-relaxed max-w-2xl">
+          Conduziu ações para o fortalecimento da segurança pública municipal, entre elas a
+          <strong class="text-white/90 font-semibold">implantação da ROMU</strong> (Ronda Ostensiva
+          Municipal) da Guarda Municipal.
+        </p>
+      </li>
+      <li class="reveal relative pl-8 lg:pl-12">
+        <span class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-brand2 ring-4 ring-ink"></span>
+        <div class="h-title text-2xl lg:text-3xl text-gold">2016</div>
+        <h3 class="mt-1 text-lg font-bold text-white">Reeleito vereador</h3>
+        <p class="mt-2 text-white/60 leading-relaxed max-w-2xl">Legislatura 2017–2020.</p>
+      </li>
+      <li class="reveal relative pl-8 lg:pl-12">
+        <span class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-brand2 ring-4 ring-ink"></span>
+        <div class="h-title text-2xl lg:text-3xl text-gold">2017 – 2020</div>
+        <h3 class="mt-1 text-lg font-bold text-white">De volta à Secretaria de Segurança e Trânsito</h3>
+        <p class="mt-2 text-white/60 leading-relaxed max-w-2xl">
+          Coordenação de políticas públicas voltadas à organização do trânsito e à segurança do município.
+        </p>
+      </li>
+      <li class="reveal relative pl-8 lg:pl-12">
+        <span class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-brand2 ring-4 ring-ink"></span>
+        <div class="h-title text-2xl lg:text-3xl text-gold">2020</div>
+        <h3 class="mt-1 text-lg font-bold text-white">Reeleito vereador</h3>
+        <p class="mt-2 text-white/60 leading-relaxed max-w-2xl">Legislatura 2021–2024.</p>
+      </li>
+      <li class="reveal relative pl-8 lg:pl-12">
+        <span class="absolute -left-[11px] top-1.5 w-5 h-5 rounded-full bg-gold ring-4 ring-ink"></span>
+        <div class="h-title text-2xl lg:text-3xl text-gold">2024</div>
+        <h3 class="mt-1 text-lg font-bold text-white">4º mandato consecutivo</h3>
+        <p class="mt-2 text-white/60 leading-relaxed max-w-2xl">
+          Reeleito para a legislatura 2025–2028, consolidando uma trajetória marcada pela
+          confiança da população e pelo compromisso com Uruguaiana.
+        </p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ PLATAFORMA ============ -->
+<section id="propostas" class="relative bg-brand py-20 lg:py-28 overflow-hidden">
+  <div class="absolute inset-0 opacity-[.07]" style="background-image:radial-gradient(#fff 1.5px, transparent 1.5px); background-size:26px 26px;"></div>
+  <div class="relative max-w-7xl mx-auto px-5 lg:px-8">
+
+    <div class="max-w-3xl">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="h-[3px] w-10 bg-gold"></span>
+        <span class="text-xs font-bold tracking-[.2em] text-white/80">PLATAFORMA DE TRABALHO</span>
+      </div>
+      <h2 class="h-title text-4xl lg:text-5xl text-white">Compromissos claros,<br>resultados concretos</h2>
+      <div class="mt-6 space-y-4 text-white/85 leading-relaxed">
+        <p>
+          Acredito que um mandato deve ser pautado por compromissos claros, responsabilidade e
+          resultados concretos, tendo como missão representar com firmeza Uruguaiana e toda a
+          Fronteira Oeste do Rio Grande do Sul no Congresso Nacional.
+        </p>
+        <p>
+          Nossa região precisa voltar a ter uma voz forte em Brasília, capaz de defender seus
+          interesses, buscar investimentos, atrair recursos, fortalecer a infraestrutura,
+          impulsionar o desenvolvimento econômico e valorizar o agronegócio, o comércio, a
+          logística de fronteira, a saúde, a educação e a segurança pública.
+        </p>
+        <p>
+          Com diálogo, transparência e dedicação, trabalharei para transformar as necessidades
+          da nossa população em ações efetivas, construindo pontes entre os municípios da
+          Fronteira Oeste e o Governo Federal.
+        </p>
+      </div>
+    </div>
+
+    <p class="mt-12 mb-8 text-sm font-bold tracking-[.18em] text-gold">OS 8 EIXOS DO MANDATO</p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3l7 3v6c0 4.4-3 8-7 9-4-1-7-4.6-7-9V6l7-3z"/><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Segurança pública e valorização profissional</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Representar a segurança pública em Brasília, defendendo policiais e bombeiros militares,
+          policiais civis, guardas municipais e todos os profissionais que protegem a sociedade.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 11v2a1 1 0 001 1h2l4 3.5V6.5L6 10H4a1 1 0 00-1 1z"/><path stroke-linecap="round" d="M15 8.5a5 5 0 010 7M18 6a8.5 8.5 0 010 12"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Uruguaiana e Fronteira Oeste com voz em Brasília</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Garantir representação forte para a nossa região, buscando recursos, investimentos e
+          políticas públicas para o desenvolvimento regional.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16V9l4-3h6v10M3 16h10m0 0h4m-4 0V9h4l3 3v4h-3"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Fronteira, comércio e desenvolvimento</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Fortalecer o Porto Seco, a aduana, o comércio internacional e os free shops,
+          incentivando empregos, turismo e novas oportunidades.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 21L10 3M16 21L14 3M12 6v2m0 4v2m0 4v2"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Infraestrutura e integração regional</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Lutar pela duplicação da BR-290, por melhorias e pela nova ponte sobre o Rio Ibicuí na
+          BR-472, além de investimentos nas rodovias e na infraestrutura da região.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12M6 12h12"/><rect x="3" y="3" width="18" height="18" rx="4"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Saúde e Hospital Universitário</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Defender a melhoria da saúde regional e trabalhar pela implantação do Hospital
+          Universitário em Uruguaiana, ampliando atendimento e oportunidades.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21V9m0 0c0-3 2-5 5-5 0 3-2 5-5 5zm0 0c0-3-2-5-5-5 0 3 2 5 5 5zm0 5c0-2.5 2-4 4.5-4 0 2.5-2 4-4.5 4zm0 0c0-2.5-2-4-4.5-4 0 2.5 2 4 4.5 4z"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Desenvolvimento, agronegócio e emprego</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Valorizar as vocações da Fronteira Oeste, fortalecendo agronegócio, comércio,
+          indústria, serviços e turismo.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5.5A1.5 1.5 0 015.5 4H11v16H5.5A1.5 1.5 0 014 18.5v-13zM20 5.5A1.5 1.5 0 0018.5 4H13v16h5.5a1.5 1.5 0 001.5-1.5v-13z"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Educação, cultura e tradição</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Investir em educação e qualificação, valorizando nossa identidade cultural, o Carnaval
+          de Uruguaiana, a Califórnia da Canção Nativa, o tradicionalismo gaúcho e outras
+          manifestações culturais.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+      <article class="reveal card-hover bg-white rounded-2xl p-6 flex flex-col">
+        <div class="w-12 h-12 rounded-full bg-brand2 flex items-center justify-center shrink-0">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5M9 12h.01M15 12h.01"/></svg>
+        </div>
+        <h3 class="mt-5 h-title text-xl text-ink">Municípios e recursos federais</h3>
+        <p class="mt-3 text-sm text-ink/65 leading-relaxed flex-1">
+          Ser a voz dos municípios da região em Brasília, buscando recursos e soluções para as
+          demandas da comunidade, com ações voltadas a melhorias e geração de emprego e renda.
+        </p>
+        <a href="#" class="mt-5 inline-flex items-center gap-2 self-start rounded-full bg-brand2 px-5 py-2.5 text-sm font-bold text-white hover:bg-brand transition">
+          Saiba mais
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </article>
+
+    </div>
+
+    <p class="reveal mt-12 h-title text-xl lg:text-2xl text-white/95 max-w-2xl">
+      Um mandato presente, preparado e comprometido com a segurança, o desenvolvimento e o
+      futuro de Uruguaiana e da Fronteira Oeste.
+    </p>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section id="contato" class="relative bg-slate-100 overflow-hidden">
+  <div class="max-w-7xl mx-auto px-5 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-8 items-end">
+      <div class="hidden lg:flex justify-center items-end pt-16">
+        <img src="assets/clemente-busto.webp" alt="Clemente" class="contact-photo w-full max-w-sm h-auto" loading="lazy">
+      </div>
+      <div class="py-16 lg:py-24 flex lg:justify-end">
+        <div class="reveal w-full max-w-md bg-white rounded-2xl shadow-xl p-8 text-center">
+          <div class="w-14 h-14 mx-auto rounded-full bg-brand2 flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.4.087-.88.229-.229.34-.365.114-.133.152-.229.229-.379.076-.148.038-.278-.019-.38-.057-.098-.494-1.202-.678-1.644-.183-.442-.362-.38-.494-.387-.129-.007-.28-.007-.43-.007a.83.83 0 0 0-.6.28c-.206.226-.785.768-.785 1.87s.804 2.171.918 2.32c.114.148 1.579 2.407 3.826 3.374.536.232.954.371 1.281.475.549.175 1.049.15 1.444.09.44-.065 1.421-.581 1.549-1.195.132-.615.132-1.14.093-1.252-.039-.114-.145-.184-.34-.284"/></svg>
+          </div>
+          <h3 class="mt-5 h-title text-2xl text-ink">Vamos conversar?</h3>
+          <p class="mt-3 text-sm text-ink/65 leading-relaxed">
+            Tem uma ideia, uma demanda da sua comunidade ou uma sugestão para Uruguaiana e a
+            Fronteira Oeste? Fale direto comigo.
+          </p>
+          <!-- TROCAR: colocar o link do WhatsApp -> https://wa.me/55DDDNUMERO -->
+          <a href="#" class="mt-6 inline-flex items-center justify-center gap-2 w-full rounded-full bg-brand2 px-6 py-3.5 font-bold text-white hover:bg-brand transition">
+            WhatsApp
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.4.087-.88.229-.229.34-.365.114-.133.152-.229.229-.379.076-.148.038-.278-.019-.38-.057-.098-.494-1.202-.678-1.644-.183-.442-.362-.38-.494-.387-.129-.007-.28-.007-.43-.007a.83.83 0 0 0-.6.28c-.206.226-.785.768-.785 1.87s.804 2.171.918 2.32c.114.148 1.579 2.407 3.826 3.374.536.232.954.371 1.281.475.549.175 1.049.15 1.444.09.44-.065 1.421-.581 1.549-1.195.132-.615.132-1.14.093-1.252-.039-.114-.145-.184-.34-.284"/></svg>
+          </a>
+          <div class="mt-5 pt-5 border-t border-ink/10 flex items-center justify-center gap-3">
+            <!-- TROCAR: links das redes sociais -->
+            <a href="#" aria-label="Instagram" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-gold flex items-center justify-center transition">
+              <svg class="w-5 h-5 text-ink" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.5.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .5 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.5 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.5-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.5-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.5-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.5-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.5C8.4 2.2 8.8 2.2 12 2.2zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.9-11.2a1.5 1.5 0 1 1-1.5-1.6 1.5 1.5 0 0 1 1.5 1.6z"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-gold flex items-center justify-center transition">
+              <svg class="w-5 h-5 text-ink" fill="currentColor" viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.5 1.6-1.5h1.6V3.3c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.4H7.5V13h2.7v8h3.3z"/></svg>
+            </a>
+            <a href="#" aria-label="E-mail" class="w-10 h-10 rounded-full bg-slate-100 hover:bg-gold flex items-center justify-center transition">
+              <svg class="w-5 h-5 text-ink" fill="none" stroke="currentColor" stroke-width="1.9" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path stroke-linecap="round" d="m4 7 8 6 8-6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-ink text-white">
+  <div class="flag-bar h-1.5 w-full"></div>
+  <div class="max-w-7xl mx-auto px-5 lg:px-8 py-14">
+    <div class="grid md:grid-cols-3 gap-10">
+      <div>
+        <img src="assets/logo.webp" alt="Clemente 2090" class="h-14 w-auto">
+        <p class="mt-5 text-sm text-white/55 leading-relaxed max-w-xs">
+          Trabalho, coragem e compromisso com o Rio Grande. Uma voz forte para Uruguaiana e a
+          Fronteira Oeste no Congresso Nacional.
+        </p>
+      </div>
+      <div>
+        <p class="text-xs font-bold tracking-[.2em] text-gold">NAVEGAÇÃO</p>
+        <ul class="mt-4 space-y-2.5 text-sm">
+          <li><a href="#home"       class="text-white/65 hover:text-white transition">Home</a></li>
+          <li><a href="#sobre"      class="text-white/65 hover:text-white transition">Sobre mim</a></li>
+          <li><a href="#trajetoria" class="text-white/65 hover:text-white transition">Trajetória</a></li>
+          <li><a href="#propostas"  class="text-white/65 hover:text-white transition">Plataforma</a></li>
+          <li><a href="#contato"    class="text-white/65 hover:text-white transition">Vamos conversar</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs font-bold tracking-[.2em] text-gold">CAMPANHA</p>
+        <ul class="mt-4 space-y-2.5 text-sm text-white/65">
+          <!-- TROCAR: partido, coligação e CNPJ da candidatura -->
+          <li>José Clemente da Silva Corrêa</li>
+          <li>Deputado Federal · <span class="text-white font-semibold">2090</span></li>
+          <li>Partido: [INFORMAR]</li>
+          <li>CNPJ CAND. 00.000.000/0001-00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <p class="text-xs text-white/40">© 2026 Clemente 2090. Todos os direitos reservados.</p>
+      <p class="text-xs text-white/40">Gente da gente!</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // menu mobile
+  const burger = document.getElementById('burger');
+  const menu = document.getElementById('mobile-menu');
+  burger.addEventListener('click', () => menu.classList.toggle('hidden'));
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.add('hidden')));
+
+  // navbar ao rolar
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('shadow-2xl', window.scrollY > 20);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // animacao de entrada
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        e.target.style.transitionDelay = (i * 60) + 'ms';
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
